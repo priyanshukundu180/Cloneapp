@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".HomepageActivity"
+        tools:showIn="@layout/app_bar_homepage">
+
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginTop="310dp"
+                android:onClick="clickme"
+                app:srcCompat="@drawable/prepaid" />
+
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="310dp"
+                android:onClick="clickme"
+                app:srcCompat="@drawable/postpaid" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="190dp"
+                android:onClick="clickme"
+                android:layout_marginTop="310dp"
+                app:srcCompat="@drawable/bus" />
+
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="280dp"
+                android:layout_marginTop="310dp"
+                android:onClick="clickme"
+                app:srcCompat="@drawable/train" />
+
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="415dp"
+                android:onClick="clickme"
+                app:srcCompat="@drawable/combo" />
+
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:onClick="clickme"
+                android:layout_marginTop="410dp"
+                app:srcCompat="@drawable/dth" />
+
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="190dp"
+                android:onClick="clickme"
+                android:layout_marginTop="410dp"
+                app:srcCompat="@drawable/electric" />
+
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="280dp"
+                android:onClick="clickme"
+                android:layout_marginTop="410dp"
+                app:srcCompat="@drawable/homelogo" />
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:onClick="clickme"
+                android:layout_marginTop="520dp"
+                app:srcCompat="@drawable/movie" />
+
+            <ImageButton
+                android:id="@+id/imageButton9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:onClick="clickme"
+                android:layout_marginTop="520dp"
+                app:srcCompat="@drawable/toys" />
+
+            <ImageButton
+                android:id="@+id/imageButton10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="190dp"
+                android:onClick="clickme"
+                android:layout_marginTop="520dp"
+                app:srcCompat="@drawable/tv" />
+
+            <ImageButton
+                android:id="@+id/imageButton11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="clickme"
+                android:layout_marginLeft="280dp"
+                android:layout_marginTop="520dp"
+                app:srcCompat="@drawable/more" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+
+                android:layout_marginTop="370dp"
+                android:text="Prepaid"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="111dp"
+                android:layout_marginTop="370dp"
+                android:text="Postpaid"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="215dp"
+                android:layout_marginTop="370dp"
+                android:text="Bus"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="370dp"
+                android:text="Train"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="469dp"
+                android:text="Combo"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="124dp"
+                android:layout_marginTop="469dp"
+                android:text="DTH"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="470dp"
+                android:text="Electric Bills"
+                android:textColor="#000000"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="285dp"
+                android:layout_marginTop="470dp"
+                android:text="Home Loans"
+                android:textColor="#000000"
+                android:textSize="10dp" />
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="585dp"
+                android:text="Movie Tickets"
+                android:textColor="#000000"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="115dp"
+                android:layout_marginTop="585dp"
+                android:text="Buy Toys"
+                android:textColor="#000000"
+                android:textSize="10dp" />
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="582dp"
+                android:text="Cable TV"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="582dp"
+                android:text="More"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:onClick="clickme"
+                android:layout_marginTop="208dp"
+                android:src="@drawable/hnysale"
+
+                />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="208dp"
+                android:onClick="clickme"
+                android:src="@drawable/grocery"
+
+                />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="190dp"
+                android:onClick="clickme"
+                android:layout_marginTop="208dp"
+                android:src="@drawable/imported"
+
+                />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="280dp"
+                android:onClick="clickme"
+                android:layout_marginTop="208dp"
+                android:src="@drawable/offers"
+
+                />
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="112dp"
+
+                android:layout_marginTop="265dp"
+                android:text="Grocery"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="265dp"
+                android:text="Paytm Mall"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="195dp"
+                android:layout_marginTop="265dp"
+                android:text="Under 199"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="285dp"
+                android:layout_marginTop="265dp"
+                android:text="Cashback"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:id="@+id/rl1"
+    android:layout_below="@id/textView13"
+    android:layout_height="wrap_content">
+            <HorizontalScrollView
+                android:layout_alignParentTop="true"
+                android:id="@+id/hs1"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="-600dp"
+
+                    android:layout_height="wrap_content"
+                    >
+
+
+                    <ImageButton
+                        android:id="@+id/img4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="700dp"
+                        android:onClick="clickme"
+                        android:src="@drawable/paytmcashback" />
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="700dp"
+                        android:onClick="clickme"
+                        android:src="@drawable/paylogo2" />
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="700dp"
+                        android:onClick="clickme"
+                        android:src="@drawable/paytmadd1" />
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+</RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv22"
+                android:layout_below="@+id/rl1"
+                android:layout_marginLeft="120dp"
+                android:text="Scroll!!----->>"
+                android:textColor="#000000"
+
+                />
+
+            <ImageButton
+                android:id="@+id/imgh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv22"
+                android:onClick="clickme"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/offers3" />
+
+            <TextView
+                android:id="@+id/tv44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgh"
+                android:layout_marginLeft="100dp"
+                android:text="Cashback of Rs 150!!"
+                android:textColor="#000000"
+
+                />
+
+<SearchView
+    android:layout_width="match_parent"
+    android:layout_marginTop="120dp"
+    android:layout_height="50dp"></SearchView>
+
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_below="@+id/tv44"
+    android:id="@+id/rl2"
+    android:layout_height="wrap_content">
+            <GridLayout
+                android:id="@+id/board_grid"
+                android:layout_width="320dp"
+                android:layout_height="330dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="44dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+
+                android:columnCount="3"
+                android:rowCount="3">
+
+                <ImageButton
+                    android:id="@+id/image_0_0"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_column="0"
+                    android:onClick="clickme"
+                    android:src="@drawable/shirts"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_row="0"
+                    android:tag="0" />
+
+                <ImageButton
+                    android:id="@+id/image_1_0"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_column="0"
+                    android:onClick="clickme"
+                    android:src="@drawable/flasks"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_row="1"
+                    android:tag="1" />
+
+                <ImageButton
+                    android:id="@+id/image_2_0"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_column="0"
+                    android:onClick="clickme"
+                    android:src="@drawable/grocery"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_row="2"
+                    android:tag="2" />
+
+                <ImageButton
+                    android:id="@+id/image_0_1"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_column="1"
+                    android:onClick="clickme"
+                    android:src="@drawable/mobiles"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_row="0"
+                    android:tag="3" />
+
+                <ImageButton
+                    android:id="@+id/image_1_1"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:src="@drawable/purifier"
+                    android:layout_column="1"
+                    android:onClick="clickme"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_row="1"
+                    android:tag="4" />
+
+                <ImageButton
+                    android:id="@+id/image_2_1"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_column="1"
+                    android:src="@drawable/laptops"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="45dp"
+                    android:layout_row="2"
+                    android:tag="5" />
+
+                <ImageButton
+                    android:id="@+id/image_0_2"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_column="2"
+                    android:onClick="clickme"
+                    android:src="@drawable/kitchentools"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_row="0"
+                    android:tag="6" />
+
+
+                <ImageButton
+                    android:id="@+id/image_1_2"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_column="2"
+                    android:layout_marginLeft="45dp"
+                    android:src="@drawable/shoes"
+                    android:onClick="clickme"
+                    android:layout_marginTop="40dp"
+                    android:layout_row="1"
+                    android:tag="7" />
+
+                <ImageButton
+                    android:id="@+id/image_2_2"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_column="2"
+                    android:onClick="clickme"
+                    android:src="@drawable/womensdress"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="45dp"
+                    android:layout_row="2"
+                    android:tag="8" />
+            </GridLayout>
+
+</RelativeLayout>
+            <ImageButton
+                android:id="@+id/imgb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="clickme"
+                android:layout_below="@+id/rl2"
+                android:src="@drawable/offers2"/>
+
+            <TextView
+                android:layout_below="@id/imgb1"
+                android:id="@+id/tv123"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="90dp"
+                android:textColor="#000000"
+                android:text="Shop on Electronics"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:id="@+id/rl3"
+                android:layout_below="@id/tv123"
+                android:layout_height="wrap_content">
+                <HorizontalScrollView
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/hs2"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="-700dp"
+
+
+                        android:layout_height="wrap_content"
+                        >
+
+
+                        <ImageButton
+                            android:id="@+id/img5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="700dp"
+                            android:paddingRight="30dp"
+                            android:onClick="clickme"
+                            android:src="@drawable/tvbig" />
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="700dp"
+                            android:paddingRight="30dp"
+                            android:onClick="clickme"
+                            android:src="@drawable/mobilebig" />
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingRight="30dp"
+                            android:onClick="clickme"
+                            android:layout_marginTop="700dp"
+                            android:src="@drawable/speakers" />
+
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingRight="30dp"
+                            android:onClick="clickme"
+                            android:layout_marginTop="700dp"
+                            android:src="@drawable/headphones" />
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+            </RelativeLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv55"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/rl3"
+                android:layout_marginLeft="120dp"
+                android:text="Scroll!!----->>"
+                android:textColor="#000000"
+
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/applogo"
+                android:layout_marginTop="50dp"
+                android:layout_below="@+id/tv55"
+                />
+
+
+        </RelativeLayout>
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>
